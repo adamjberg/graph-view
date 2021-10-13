@@ -1,0 +1,15 @@
+{
+  "name": "graph-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adam Berg <adam@xyzdigital.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild app.ts --bundle --outfile=public/app.js",
+    "dev": "yarn build --servedir=public"
+  },
+  "dependencies": {
+    "esbuild": "^0.13.5",
+    "pixi.js": "^6.1.3"
+  }
+}
